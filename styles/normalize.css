@@ -5,8 +5,8 @@
 
 /**
  * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
+ * 2. Prevent adjustments of font size after orientation(포트레이트모드와 인더..?) changes in iOS.
+ 가로길이가 늘어나는 경우에 사용자 경험이 달라지겠죠? 디바이스 크기에 맞추어 세팅하는 것...ㅇ..ㅎ...!*/
 
 html {
   line-height: 1.15; /* 1 */
