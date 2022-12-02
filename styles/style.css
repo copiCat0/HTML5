@@ -4,7 +4,7 @@
 /*기본 스타일*/
 *, *::before, *::after{
   box-sizing:border-box;
-
+  
 }
 /* 본문스타일 */
 body{
@@ -31,20 +31,18 @@ body{
   background: salmon;
   height : 10vh;
 }
-/* 메인 */
-.main{
-  background: lightsalmon;
-  height : 50vh;
-  display: flow-root;
-  /* overflow: hidden; */
-}
 
 /* .clearfix{
   clear:both;
 } */
-.group{
-  margin:0 15px;
-  float : left;
+
+/* 메인 */
+.main{
+  background: lightsalmon;
+  height : 50vh;
+  display :flex;
+  flex-direction:row;
+  /* overflow: hidden; */
 }
 
 .group1{
@@ -58,6 +56,7 @@ body{
 .group3{
   background-color: violet;
   width:190px;
+  order : -1;
 }
 /* */
 .slogan{
