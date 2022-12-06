@@ -49,19 +49,17 @@ a{
   /* background-color: rgb(12, 241, 245); */
   text-align: right;
   padding: 4px 0;
-  background-color:aqua;
-  position: relative;
-  right :-10px;
+  /* position: relative;
+  right :-10px; */
+  transform: translate(10px);
   /* font-size: 0; */
 }
 .member li{
-  /* background-color: pink; */
   display: inline-block;
   /* font-size: 16px; */
 }
 
 .member a{
-  background-color: orange;
   padding: 10px 6px;
   display: inherit;
   text-transform: uppercase;
