@@ -50,6 +50,8 @@ a{
   text-align: right;
   padding: 4px 0;
   background-color:aqua;
+  position: relative;
+  right :-10px;
   /* font-size: 0; */
 }
 .member li{
@@ -65,10 +67,10 @@ a{
   text-transform: uppercase;
 }
 
-.member li:last-child a{
+/* .member li:last-child a{
 padding-right: 0;
+} */
 
-}
 .divider{
   margin-right: 4px;
   
