@@ -48,7 +48,8 @@ a{
 .member{
   /* background-color: rgb(12, 241, 245); */
   text-align: right;
-  padding: 4px 0
+  padding: 4px 0;
+  background-color:aqua;
   /* font-size: 0; */
 }
 .member li{
@@ -61,8 +62,13 @@ a{
   background-color: orange;
   padding: 10px 6px;
   display: inherit;
+  text-transform: uppercase;
 }
 
+.member li:last-child a{
+padding-right: 0;
+
+}
 .divider{
   margin-right: 4px;
   
