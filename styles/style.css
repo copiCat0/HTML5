@@ -569,6 +569,69 @@ body {
   color: hsla(110, 50%, 30%, 1);
 }
 
+.news{
+  position: relative;
+  margin-top:20px;
+
+}
+
+.news-link{
+  display: block;
+}
+
+.news-item{
+  position: relative;
+  margin-top: 35px;
+  padding-left:130px
+}
+
+.news-title{
+  font-weight: 700;
+  color: #ef9126;
+  font-size: 1.5rem;
+}
+
+.news-item-thumbnail{
+  position: absolute;
+  top:2px;
+  left:0px;
+  text-align: center;
+}
+
+.news-item-title{
+  font-weight: 500;  
+}
+
+.news-item-thumbnail img{
+  box-shadow: 0 15px 10px 5px #ccc;
+  margin-bottom: 15px;
+}
+
+.news-item-date{
+  display: block;
+  margin:5px 0 10px
+}
+
+.news-item-brief{
+  line-height: 1.5;
+  text-indent: 1ch;
+}
+
+.news::before{
+  content : "";
+  position: absolute;
+  background: #aaa linear-gradient(to right, #ccc, #fff);
+  top:35px;
+  width: 80%;
+  height:1px;
+}
+
+.news-more{
+  position: absolute;
+  top : -8px;
+  right: -8px;
+  padding: 8px;
+}
 /* 슬로건 */
 .slogan {
   background: skyblue;
