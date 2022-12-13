@@ -1,8 +1,8 @@
-/* 신규 이벤트 및 관련 사이트 */
 .gradient-effect{
   background: #ccc linear-gradient(to bottom, #ccc, #eee);
   border : 1px solid #aaa;
   border-radius: 5px;
+  padding : 10px;
 }
 
 .accent-color{
