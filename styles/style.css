@@ -825,6 +825,32 @@ body {
   background: #ccc
     linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
 }
+
+.footer-inner{
+  padding: 20px;
+  display: flex;
+}
+
+
+.footer-log, .footer-inner, .badge-wrapper{
+  justify-content: space-around;
+  margin-top: 5px;
+  
+}
+.footer-inner-wrapper ul{
+  text-transform: uppercase;
+  background: #666;
+  border-radius: 20px;
+  display: flex;
+  color : #fff;
+  padding : 15px;
+  justify-content: space-between;
+}
+.footer-log{
+  
+}
+
+
 .footer-inner {
   background: silver;
   height: 15vh;
